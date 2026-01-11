@@ -2,6 +2,8 @@
 
 A conversational AI agent built with LangChain and LangGraph that features tool-calling capabilities and persistent memory. The agent can search the web using Tavily and maintain conversation context across interactions. I built this project for learning and understanding how agents works.
 
+https://github.com/user-attachments/assets/2ca267bb-fcc8-4afc-b5f7-6df05cb1b5e8
+
 ## Table of contents
 - [Features](#features)
 - [Tech stack](#tech-stack)
@@ -16,6 +18,8 @@ A conversational AI agent built with LangChain and LangGraph that features tool-
 - **Interactive CLI Interface**: Chat with the AI assistant directly from your terminal
 - **Tool Integration**: Web search capabilities powered by Tavily
 - **Persistent memory** — Conversation history is stored using LangGraph’s built-in memory, allowing the agent to remember earlier messages within a thread.
+
+<img width="989" height="630" alt="image" src="https://github.com/user-attachments/assets/bc1f4dcf-a3e8-45fd-a90f-165c822a359d" />
 
 ## Tech Stack
 
@@ -86,6 +90,8 @@ I learned what AI agents are and how they work. For example, if a user asks, “
 But LLM does not have access to real-time data because it is trained on static data such as articles, books, and Wikipedia, and then deployed. After deployment, it does not automatically have access to the internet or live information.
 
 To get real-time data, an LLM needs access to external tools. These tools are essentially functions. Behind the scenes, we can perform a web search, fetch the weather data, and pass that information to the LLM. Based on this data, the LLM generates the final response.
+
+<img width="1115" height="680" alt="image" src="https://github.com/user-attachments/assets/13bed7d9-0696-4d5a-b072-5609e5434063" />
 
 LLM cannot perform actions on its own; it only has the ability to reason and generate text. To perform actions—such as searching the web—we must provide external tools. When an LLM is able to invoke and use these tools, it is referred to as an AI agent.
 
