@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/2ca267bb-fcc8-4afc-b5f7-6df05cb1b5e8
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/panderonak/agent-flow.git
 cd agent-flow
 ```
 
